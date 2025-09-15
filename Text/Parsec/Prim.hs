@@ -68,7 +68,7 @@ import Control.Monad.Identity
 import Control.Monad.Trans.Reader (ReaderT(..))
 import Control.Monad.Reader.Class
 import Control.Monad.State.Class
-import Control.Monad.Cont.Class
+import Control.Monad.Cont.Class hiding (label)
 import Control.Monad.Error.Class
 
 import Data.IORef
